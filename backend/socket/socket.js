@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: ['https://chat-app-real-time-bvcd.onrender.com'],
+        origin: ['https://chat-app.hitly.vn'],
         methods: ['GET', 'POST']
     }
 });

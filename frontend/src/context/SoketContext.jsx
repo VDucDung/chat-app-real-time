@@ -13,7 +13,7 @@ export const SoketContextProvider = ({ children }) => {
 
     useEffect(() => {
         if (authUser) {
-            const socket = io("https://chat-app-real-time-bvcd.onrender.com", {
+            const socket = io("https://chat-app.hitly.vn", {
                 query: { userId: authUser._id },
             });
             setSocket(socket);
