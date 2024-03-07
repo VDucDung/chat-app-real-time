@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://chatapp-4jtg.onrender.com",
+        target: "https://chat-app-real-time-bvcd.onrender.com",
       },
     },
   },
